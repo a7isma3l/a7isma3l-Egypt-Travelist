@@ -1,15 +1,6 @@
 /* ############### fonts ############### */
 
-@font-face {
-    font-family: 'WorkSans-Regular';
-    src: url(../font/WorkSans-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'WorkSans-Bold';
-    src: url(../font/WorkSans-Bold.ttf);
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 
 /* ############### var ############### */
 
@@ -37,7 +28,7 @@ html {
 }
 
 body {
-    font-family: var(--font-Regular);
+    font-family: 'Work Sans', sans-serif;
 }
 
 .container {
@@ -55,7 +46,7 @@ body {
     text-align: center;
     letter-spacing: -3px;
     margin: 0;
-    font-family: var(--font-bold);
+    font-weight: 800;
     text-transform: capitalize;
 }
 
@@ -219,7 +210,7 @@ body {
 .landing .intro-text h1 {
     margin: 0;
     color: var(--main-color);
-    font-family: var(--font-bold);
+    font-weight: 800;
     font-size: 50px;
     text-transform: uppercase;
 }
@@ -256,7 +247,7 @@ body {
 
 .features .feat h3 {
     text-transform: capitalize;
-    font-family: var(--font-bold);
+    font-weight: 800;
 }
 
 .features .feat p {
@@ -459,7 +450,7 @@ body {
 }
 
 .about .about-content .text p:first-of-type {
-    font-family: var(--font-bold);
+    font-weight: 800;
     margin-bottom: 50px;
     color: #333;
 }
@@ -507,7 +498,7 @@ body {
 }
 
 .contact .contact-content h3 {
-    font-family: var(--font-bold);
+    font-weight: 800;
     color: white;
     text-transform: capitalize;
     font-size: 25px;
@@ -551,6 +542,6 @@ footer {
 }
 
 footer span {
-    font-family: var(--font-bold);
+    font-weight: 800;
     color: var(--main-color);
 }
